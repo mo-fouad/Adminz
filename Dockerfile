@@ -5,7 +5,6 @@ FROM node:alpine
 COPY ./ ./
 
 #installing dependances for the project
-RUN npm i -g install yarn
 RUN yarn install
 
 #run commandes & have fun :D
